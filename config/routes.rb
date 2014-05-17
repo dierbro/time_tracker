@@ -1,4 +1,6 @@
 TimeTracker::Application.routes.draw do
+  resources :projects
+
   resources :customers
 
   resources :activities
